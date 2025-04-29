@@ -1,0 +1,24 @@
+#!/bin/bash
+
+<<<comment
+
+VAR_NAME=value
+VAR_NAME=$(hostname)
+
+echo $VAR_NAME
+
+comment
+
+
+a=10
+name="xyz"
+age=22
+
+echo "My name is $name and I am $age years old."
+
+name="zyx"
+
+echo "My name is $name"
+
+
+

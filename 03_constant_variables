@@ -1,0 +1,17 @@
+#!/bin/bash
+
+<<<comment
+
+Once a variable defined and dont wanna change it until end of the script.
+
+readonly var_name="Hi"
+
+comment
+
+readonly university="daffodil"
+
+echo "My collage name is $university "
+
+university="BRAC"
+
+echo "$university"
