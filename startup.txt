@@ -1,0 +1,18 @@
+How to check default shell?
+echo $0 
+
+How to check my shell?
+cat /etc/shells
+
+to show an output to terminal
+echo "hello world"
+
+Make sure script has execute permission rwx
+
+Run using
+./script.sh
+/path/script.sh
+bash script.sh
+
+ctrl+c to terminate
+ctrl+z to stop
