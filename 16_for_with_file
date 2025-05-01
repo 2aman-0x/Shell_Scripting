@@ -1,6 +1,6 @@
 #!/bin/bash
 
-items="names.txt"
+items="/shell-scripting/names.txt"
 for item in $(cat $items)
 do
 	echo "name is $item"
