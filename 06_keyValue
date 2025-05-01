@@ -6,4 +6,4 @@ declare -A myarray
 myarray=( [name]=xyz [age]=100 [city]=london )
 echo "Name is ${myarray[name]}"
 echo "My age is ${myarray[age]}"
-echo "my city is ${myarray[city]"
+echo "my city is ${myarray[city]}"
