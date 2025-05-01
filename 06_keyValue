@@ -1,6 +1,6 @@
 #!/bin/bash
 
-How to store the key values pairs?
+#How to store the key values pairs?
 
 declare -A myarray
 myarray=( [name]=xyz [age]=100 [city]=london )
