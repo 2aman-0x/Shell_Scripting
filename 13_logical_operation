@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Note
+# -ge for numeric
+# == for string (symbol for string)
+
+#And operator
+#If both conditions are true then true else false
+
+read -p "what is your age? " age
+read -p "What is your country? " country
+
+if [ $age -ge 18 ] && [[ $country == "USA" ]]
+then
+	echo "You can go for vote."
+else
+	echo "Ypu can't go for vote."
+fi

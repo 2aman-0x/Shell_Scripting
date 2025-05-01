@@ -1,0 +1,21 @@
+#!/bin/bash
+
+myvar="hello world!"
+lenth=${#myvar}
+
+<<<comment
+
+upper=${x^^}
+lower=${y,,}
+
+replace=${myvar/world/buddy}
+slice=${myvar:6:11}
+
+comment
+
+
+echo "Upper case is ${myvar^^}"
+echo "Lower case is ${myvar,,}"
+echo "Replace is ${myvar/hello/Hi}"
+echo "to slice a string ${myvar:3 :5}"
+

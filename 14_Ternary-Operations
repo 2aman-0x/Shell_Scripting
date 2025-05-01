@@ -1,0 +1,10 @@
+#!/bin/bash
+#condition1 && condition2 || condition3
+
+#Execute condition2 only when 1 is true else #execute condtion3
+
+#conditon-1 && condition-2 || condition-3
+
+read -p "What is your age? " age
+
+[[ $age -ge 18 ]] && echo "Adult" || echo "Minor"

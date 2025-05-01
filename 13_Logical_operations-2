@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# OR operator
+#If any of the condition is true then true
+
+read -p "what is your age? " age
+read -p "What is your country? " country
+
+if [ $age -ge 18 ] || [[ $country == "USA" ]]
+then
+	echo "You can go for vote."
+else
+	echo "Ypu can't go for vote."
+fi

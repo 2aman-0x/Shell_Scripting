@@ -1,0 +1,8 @@
+
+# And Operator
+condition1 && condition2
+If both conditions are true then true else false
+
+# Or operator
+condition1 || condition2
+If any of the condition is true then true

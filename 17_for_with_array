@@ -1,0 +1,10 @@
+#!/bin/bash
+
+myarray=( 1 2 3 4 Hello World! )
+
+length=${#myarray[*]}
+
+for (( i=0;<$length;i++))
+do 
+	echo "Value of array is ${myarray[$i]}"
+done

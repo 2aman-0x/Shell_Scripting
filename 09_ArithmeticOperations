@@ -1,0 +1,19 @@
+#!/bin/bash
+
+x=10
+y=2
+
+let multiply=$x*$y
+
+echo "$multiply"
+
+let sum=$x+$y
+
+echo "$sum"
+
+
+echo "substraction is $(($x-$y))"
+
+
+
+echo "division is $(($x/$y))"

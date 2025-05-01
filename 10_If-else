@@ -1,0 +1,25 @@
+#!/bin/bash
+
+<<<comment
+
+equal -eq/==
+grater than or equal to -ge
+less than or equal to -le
+Not Equal -ne/!=
+Grater Than -gt
+less than -lt
+
+comment
+
+
+read -p "enter your marks : " marks
+
+if [ $marks -gt 40 ]
+then
+echo "You are PASS"
+else
+echo "You are FAIL"
+fi
+
+
+
