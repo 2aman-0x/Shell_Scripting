@@ -20,3 +20,15 @@
 [16](names.txt)<br>
 [16](16_for_with_file)<br>
 [17](17_for_with_array)<br>
+[18](18_while_loop)<br>
+[19](19_until_loop)<br>
+[20](20_infinite_while_loop)<br>
+[21](21_infinite_for_loop)<br>
+[22](22_while_with_file)<br>
+[23](23_while_with_CSV)<br>
+[23](23_while_with_CSV-2)<br>
+[24](24_function)<br>
+[24](24_function-2)<br>
+[25](25_function_with_argument)<br>
+[25](25_calculator_using_function)<br>
+
