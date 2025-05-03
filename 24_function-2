@@ -1,0 +1,14 @@
+#!/bin/bash
+
+welcomeNote () {
+	echo "-----------------"
+	echo "welcome"
+	echo "-----------------"
+
+}
+
+#to call our function
+welcomeNote
+welcomeNote
+welcomeNote
+welcomeNote

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function welcomeNote {
+	echo "-----------------"
+	echo "welcome $1"
+	echo "Age is $2"
+	echo "-----------------"
+
+}
+
+welcomeNote Goku 20
+welcomeNote Uchiha 30
