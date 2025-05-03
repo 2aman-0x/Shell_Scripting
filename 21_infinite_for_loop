@@ -4,4 +4,5 @@ for (( ;; ))
 do 
 	echo "Hi"
 	sleep 2s
+#sleep - to create delay between two executions. examples : 1s/1m
 done
