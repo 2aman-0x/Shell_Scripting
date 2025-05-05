@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#to access the arguments
+
+#myscript.sh arg1 arg2..
+#How to access these arguments inside our script?
+#To get number of arguments : $#
+#To display all arguments : $@
+#To use or display a argument: $1 $2
+
+if [[ $# -eq 0 ]]
+then
+	echo "Please provide atleast one argument"
+	exit 1
+fi
+
+echo "First argument is $1"
+echo "Second argument is $2"
+
+#to run this script open terminal and type : bash 26_arguments xyz zyx
+
+
+echo "All the arguments are - $@"
+echo "Number of all arguments : $#"
+
+#open terminal and type : bash 26_arguments xyz zyx 12 23 
+
+
+#For loop to access the value from arguments
+for filename in $@
+do
+	echo " Copying file - $filename"
+done

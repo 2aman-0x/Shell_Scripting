@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# In case if you don't wanna print the output of a command on terminal or write in a file,
+# We can redirect the output to /dev/null
+# Example: cd /root &>/dev/null
+
+
+read -p "Which site you want to check ? " site
+
+ping -c 1 $site &> /dev/null
+#sleep 5s
+
+if [[ $? -eq 0 ]]
+then
+	echo "Successfully connected to $site"
+else
+	echo "Unable to connect  $site"
+fi

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# if [ -d folder_name] If folder exists
+# if  [ ! -d folder_name] If folder not exists
+# if [ -f file_name] If file exists
+# if [ ! -f file_name] If file not exists
+
+
+FILEPATH="/home/kali/Desktop/ShellScripting/test.csv"
+
+if [[ -f $FILEPATH ]]
+then
+	echo "File path is exist"
+else
+	echo "File path is not exist"
+	exit 1
+fi
+
+
+
+FILEPATH="/home/kali/Desktop/ShellScripting/test.csv"
+
+if [[ -f $FILEPATH ]]
+then
+	echo "File path is exist"
+else
+	echo "File path is not exist creting file now"
+	touch $FILEPATH
+	exit 1
+fi

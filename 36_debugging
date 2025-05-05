@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#If We can enable the debugging of the script using below in the script
+#set -x
+
+set -x
+
+# If We want to exit our script when a command fail
+set -e
+
+if [[ $# -eq 0 ]]
+then
+	echo "Please provide atleast one argument"
+	exit 1
+fi
+
+echo "First argument is $1"
+echo "Second argument is $2"
+
+#to run this script open terminal and type : bash 26_arguments xyz zyx
+
+
+echo "All the arguments are - $@"
+echo "Number of all arguments : $#"
+
+#open terminal and type : bash 26_arguments xyz zyx 12 23 
+
+
+#For loop to access the value from arguments
+for filename in $@
+do
+	echo " Copying file - $filename"
+done

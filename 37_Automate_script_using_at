@@ -1,0 +1,9 @@
+For scheduling only one time, use AT
+
+at 12:09 PM 31 July 2023
+<command which i want to schedule>
+Ctrl + D
+
+
+atq to check scheduled job 
+atrm <id> to remove the schedule
